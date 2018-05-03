@@ -1,0 +1,218 @@
+﻿/*Nellie's Nursery media query sheet
+nnprototype2
+
+/*Screen resolution breakpoints*/
+@media only screen and (min-width: 1170px) {
+    .menu {
+        visibility: hidden;
+    }
+
+    .button2 {
+        background-color: #aed2a7;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 25px;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1170px) {
+    .button {
+        margin-top: 3%;
+        font-size: 12px;
+    }
+
+    .button2:hover {
+        font-size: 13px;
+    }
+
+    .menu {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+    .menu {
+        margin-top: 5%;
+    }
+
+    .button {
+        width: 100px;
+        height: 45px;
+        font-size: 12px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .button:hover {
+        font-size: 13px;
+    }
+
+    .button2 {
+        width: 90px;
+        height: 45px;
+        font-size: 12px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .button2:hover {
+        font-size: 13px;
+    }
+
+    #textcontainer {
+        width: 90%;
+    }
+
+    .menu {
+        visibility: hidden;
+    }
+}
+
+/*Display hamburger menu, make font smaller, move feature image down the page*/
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    p1 {
+        font-size: 20px;
+    }
+
+    .menubar {
+        visibility: hidden;
+    }
+
+    #featureimage {
+        top: 0;
+        padding-top: 15%;
+    }
+
+    #textcontainer {
+        width: 95%;
+    }
+
+    .hamburger, .cross {
+        visibility: visible;
+    }
+
+    .button {
+        width: 100%;
+        border-radius: 25px 0px 0px 25px;
+    }
+
+    .button2 {
+        width: 90px;
+        height: 45px;
+        font-size: 12px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .button2:hover {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    p1 {
+        font-size: 20px;
+    }
+
+    .menubar {
+        visibility: hidden;
+    }
+
+    #featureimage {
+        top: 0;
+        padding-top: 25%;
+    }
+
+    #textcontainer {
+        width: 95%;
+    }
+
+    #groupicons { /*applicable only to 'groups' page*/
+        width: 100%;
+    }
+
+    .hamburger, .cross {
+        visibility: visible;
+    }
+
+    .button {
+        width: 100%;
+        border-radius: 25px 0px 0px 25px;
+    }
+
+    .button2 {
+        width: 55px;
+        height: 45px;
+        font-size: 12px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .button2:hover {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    p1 {
+        font-size: 20px;
+    }
+
+    .menubar {
+        visibility: hidden;
+    }
+
+    #featureimage {
+        top: 0;
+        padding-top: 35%;
+    }
+
+    #textcontainer {
+        width: 95%;
+    }
+
+    #groupicons { /*applicable only to 'groups' page*/
+        width: 100%;
+    }
+
+    .hamburger, .cross {
+        visibility: visible;
+    }
+
+    .button {
+        width: 100%;
+        border-radius: 25px 0px 0px 25px;
+    }
+
+    .button2 {
+        width: 45px;
+        height: 45px;
+        font-size: 12px;
+        padding: 0px 0px 0px 0px;
+
+    }
+
+    .button2:hover {
+        font-size: 13px;
+    }
+}
+
+

@@ -1,0 +1,90 @@
+﻿/*Masonry is a Flexbox Tile system developed by Jason Brown*/
+
+/*The container contains the tiles. Display MUST be flex, flex-wrap MUST be wrap*/
+.masonry-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Default styling for all tiles, additional properties can be added using the CSS classes below*/
+/*Example: <div class="masonry green width60 one-col> makes a green tile, 60% wide and one column*/
+.masonry {
+    color: #FFF;
+    display: inline-block;
+    border-radius: 25px 25px 25px 25px;
+    padding: 15px 15px 15px 15px;
+    margin: 10px 10px 10px 10px; 
+    text-align: justify;
+}
+
+.masonry.green {
+    background-color: #aed2a7;
+}
+
+.masonry.yellow {
+    background-color: #fbc477;
+}
+
+.masonry.width20 {
+    width: 20%;
+}
+
+.masonry.width45 {
+    flex-basis: 45%;
+}
+
+.masonry.width60 {
+    width: 60%;
+}
+
+.masonry.width100 {
+    width: 100%;
+}
+
+.masonry.one-col {
+    flex: 1;
+}
+
+.masonry.two-col {
+    flex: 2;
+}
+
+.masonry.three-col {
+    flex: 3;
+}
+
+.masonry.four-col {
+    flex: 4;
+}
+
+.masonry.five-col {
+    flex: 5;
+}
+
+.masonry.six-col {
+    flex: 6;
+}
+
+.masonry.seven-col {
+    flex: 7;
+}
+
+.masonry.eight-col {
+    flex: 8;
+}
+
+.masonry.nine-col {
+    flex: 9;
+}
+
+.masonry.ten-col {
+    flex: 10;
+}
+
+
+
+
+
+

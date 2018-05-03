@@ -1,0 +1,233 @@
+﻿/*Font*/
+@font-face {
+    font-family: "Childs Play";
+    src: url(../fonts/child.ttf) format('truetype');
+    src: url(../fonts/child.eot) format('embedded opentype');
+    src: url(../fonts/child.woff) format('woff');
+}
+
+/*Body styling*/
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+/*Font and formatting properties*/
+
+h1, h2, h3 {
+    font-family: Childs Play, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+c1 { /*figure caption, to be used inside <figcaption> tags*/
+    font-family: Childs Play, Arial, Helvetica, sans-serif; 
+    font-size: 25px;
+}
+
+t1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+f1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+/*Element styling*/
+
+#container {
+    width: 100%;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    opacity: 0.97;
+    z-index: 2;
+}
+
+#logo {
+    padding: 1% 1% 1% 1%;
+    position: relative;
+    height: 85%;
+    width: auto;
+}
+
+/*NOTE: In hamburger prototypes, '.menubar' is the menu displayed at the top of the page in desktop view (in other prototypes this class is called '.menu')*/
+.menubar { 
+    top: 0;
+    margin-top: 2.5%;
+    margin-right: 2.5%;
+    float: right;
+}
+
+.button {
+    background-color: #aed2a7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.button:hover {
+    background-color: #fbc477;
+    transition: .3s;
+    font-size: 18px;
+}
+
+.current {
+    background-color: #fbc477;
+}
+
+#hero {
+    width: 100%;
+    height: 30%;
+    z-index: 1;
+}
+
+/*Hamburger menu, only visible on mobile*/
+
+/*Hamburger menu
+Menu properties and formatting*/
+.menu {
+    z-index: 1000000;
+    font-weight: bold;
+    font-size: 0.8em;
+    width: 100%;
+    background: white;
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+}
+
+.glyphicon-home {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin: 0 auto;
+}
+
+span {
+    padding-left: 20px;
+}
+
+a {
+    color: #336699;
+}
+
+/*Hamburger button class*/
+.hamburger {
+    background: none;
+    position: absolute;
+    top: 0;
+    margin-top: 5%;
+    margin-right: 3%;
+    right: 0;
+    line-height: 45px;
+    color: black;
+    border: 0;
+    font-size: 2.8em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
+    visibility: hidden;
+}
+
+/*Cross button class*/
+.cross {
+    background: none;
+    position: absolute;
+    top: 0px;
+    margin-top: 5%;
+    margin-right: 3%;
+    right: 0;
+    color: black;
+    border: 0;
+    font-size: 5.8em;
+    line-height: 65px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
+}
+
+#textcontainer {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-top: -17%;
+    width: 75%;
+    background-color: white;
+    border-radius: 45px 45px 0px 0px;
+    z-index: 1;
+    padding: 2% 2% 2% 2%;
+    text-align:justify;
+}
+
+.siema, .siema1, .siema5, .siema6, .siema7, .siema8 {
+    width: 100%;
+}
+
+#siemaimg {
+    width: 100%;
+}
+
+#groupicons { /*only applicable for the 'Groups' page*/
+    left: 0%;
+    margin-left: 5%;
+    width: auto;
+}
+
+#topofpage { /*only applicable for the 'Groups' page*/
+    float: right;
+    right: 0;
+    padding-right: 2%;
+}
+
+/*See Masonry stylesheet for tile styling*/
+
+#footer {    
+    position: relative;
+    z-index: 1;
+}
+
+#footerimage {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#footertext {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
